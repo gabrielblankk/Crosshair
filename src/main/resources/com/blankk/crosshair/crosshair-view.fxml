@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane mouseTransparent="true" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.blankk.crosshair.CrosshairController">
+      <ImageView fx:id="crosshairImageView" preserveRatio="true" StackPane.alignment="CENTER" />
+
+      <Text fx:id="bindLabel" fill="WHITE" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" textAlignment="CENTER">
+            <font>
+                  <Font size="40.0" />
+            </font>
+      </Text>
+</StackPane>
